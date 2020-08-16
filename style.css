@@ -1,0 +1,38 @@
+body{
+  background-color: rgb(221, 193, 156);
+}
+
+.slider {
+  margin: 50px auto;
+  width: 690px;
+  /* border: 1px red solid; */
+}
+
+.slide {
+  width: 600px;
+  height: 360px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  /* border: 1px blue solid; */
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  display: none;
+  border-radius: 15px;
+}
+
+.prev,
+.next {
+  width: 40px;
+  padding: 2px;
+  float: left;
+  margin-top: 150px;
+  cursor: pointer;
+}
+
+.slide .show {
+  display: inline-block;
+}
